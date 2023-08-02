@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^1.9.7",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "eslint": "^7.32.0",
+    "husky": "^8.0.0",
+    "prettier": "^2.5.1",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.6.10",
+  "name": "lectern",
+  "dependencies": {
+    "commitlint": "^17.6.7",
+    "lint-staged": "^13.2.3"
+  }
+}
