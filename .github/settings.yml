@@ -3,7 +3,6 @@ labels:
   - name: "🐛 Type: Bug"
     color: e80c0c
     description: Something isn't working as expected.
-
   - name: "⭐ Type: Enhancement"
     color: 54b2ff
     description: Suggest an improvement for an existing feature.
